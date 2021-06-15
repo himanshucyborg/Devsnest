@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #07141b;
+    height: 500px;
+}
+.clock{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border: 100px rgb(137, 229, 245);
+    border-radius: 100%;
+    box-shadow: 0px -2px 15px rgba(255, 255, 255, 0.5);
+}
+.texture{
+    position: relative;
+    width: 380px;
+    height: 380px;
+    background-color: black;
+    border-radius: 100%;
+    left: 2.5%;
+    top: 2.5%;
+}
+.hour{
+    position: absolute;
+    text-align: center;
+    width: 120px;
+    height: 10px;
+    background-color: red;
+    border-radius: 5px;
+    transform: rotate(var(--hours));
+    left: 50%;
+    top: 50%;
+}
+.minute{
+    position: absolute;
+    text-align: center;
+    width: 165px;
+    height: 6px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    transform: rotate(var(--minutes));
+    left: 50%;
+    top: 50%;
+}
+.second{
+    position: absolute;
+    text-align: center;
+    width: 180px;
+    height: 4px;
+    background-color: orange;
+    border-radius: 5px;
+    transform: rotate(var(--seconds));
+    left: 49%;
+    top: 50%;
+}
+.center{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: wheat;
+    border-radius: 100%;
+    top: 49%;
+    left: 48%;
+}
