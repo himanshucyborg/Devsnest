@@ -1,34 +1,34 @@
 ### Some important psql commands:
 
-1.sudo -u psql --> switched to and starts psql command prompt
+1. sudo -u psql --> switched to and starts psql command prompt
 
-2.\c dbname username --> switch connection to new database (dbname) under a user specified by
+2. \c dbname username --> switch connection to new database (dbname) under a user specified by
 
-3.\l --> list all available databases
+3. \l --> list all available databases
 
-4.\dt --> list all tables in current database
+4. \dt --> list all tables in current database
 
-5.\d table_name --> describe a table
+5. \d table_name --> describe a table
 
-6.\dn --> list all Schemas of current database
+6. \dn --> list all Schemas of current database
 
-7.\df --> list all functions of current database
+7. \df --> list all functions of current database
 
-8.\dv --> list all Views of current database
+8. \dv --> list all Views of current database
 
-9.\du --> list all users and their assigned roles
+9. \du --> list all users and their assigned roles
 
-10.\s --> to display command history
+10. \s --> to display command history
 
-11.\g --> to execute previous command
+11. \g --> to execute previous command
 
-12.\i filename --> to execute psql commands from a file
+12. \i filename --> to execute psql commands from a file
 
-13.\timing --> to turn ON/OFF query execution time:w
+13. \timing --> to turn ON/OFF query execution time:w
 
-14.\e --> to write command in default editor(vim/nano)
+14. \e --> to write command in default editor(vim/nano)
 
-15.\q --> to quit psql
+15. \q --> to quit psql
 
 ### BASIC QUERIES:
 
