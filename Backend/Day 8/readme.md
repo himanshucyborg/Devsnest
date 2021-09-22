@@ -1,4 +1,4 @@
-Take aways of today's lecture:
+### Take aways of today's lecture:
 
 // app.use() to use a middleware before every api call
 
